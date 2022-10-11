@@ -1,0 +1,28 @@
+.album-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-gallery {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.back-to-gallery a {
+  text-decoration: none;
+  color: white;
+}
+
+#album-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#album-content img {
+  width: 200px;
+  height: 150px;
+}
